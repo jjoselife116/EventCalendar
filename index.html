@@ -1,9 +1,6 @@
 <html>
-
 <head>
     <meta charset="utf-8">
-
-
     <title>
         Event Calendar
     </title>
@@ -11,13 +8,9 @@
     <link href="eventcalendar.css" rel="stylesheet">
     <link href="eventcalendar.print.css" rel="stylesheet" media="print">
 
-
-
     <link href="scheduler.css" rel="stylesheet">
-      <link href="addTask.css" rel="stylesheet">
+    <link href="addTask.css" rel="stylesheet">
     <script src="Calendar.js"></script>
-
-
 
     <style>
         html,
@@ -37,8 +30,6 @@
 </head>
 
 <body class="">
-
-
     <div id="calendar" class="ec ec-unthemed ec-ltr">
         <div class="ec-toolbar ec-header-toolbar">
 
@@ -71,6 +62,8 @@
                                     <div class="ec-scroller" style="overflow-x: scroll; overflow-y: hidden; margin: 0px 0px -17px;">
                                         <div class="ec-scroller-canvas" style="min-width: 70px;">
                                             <div class="ec-content">
+
+                                                <!-- This is the top bar of the table "Resources" (Needs to stay stagnant) -->
                                                 <table class="" style="height: 47.2px;">
                                                     <colgroup>
                                                         <col class="ec-main-col">
@@ -79,12 +72,14 @@
                                                         <tr>
                                                             <th class="ec-widget-header" style="background-color:#364256">
                                                                 <div >
-                                                                    <div class="ec-cell-content"><span class="ec-expander-space"><span class="ec-icon"></span></span><span class="ec-cell-text back" >Resources</span></div>
+                                                                    <div class="ec-cell-content"><span class="ec-expander-space"><span class="ec-icon"></span></span><span class="ec-cell-text back" >Employee Name/Tasks</span></div>
                                                                 </div>
                                                             </th>
                                                         </tr>
                                                     </tbody>
                                                 </table>
+
+
                                             </div>
                                             <div class="ec-bg">
                                             </div>
@@ -98,6 +93,8 @@
                                     <div class="ec-scroller" style="overflow-x: scroll; overflow-y: hidden; margin: 0px 0px -17px;">
                                         <div class="ec-scroller-canvas ec-gutter-right" style="padding-right: 17px; width: 7745px;">
                                             <div class="ec-content">
+
+                                              <!-- Looks like this is the days at the top of the table (Scrollable Sideways) -->
                                                 <table class="" style="height: 47.2px;">
                                                     <colgroup>
                                                         <col id="width">
@@ -270,6 +267,11 @@
                                                         <col>
                                                     </colgroup>
                                                     <tbody>
+
+                                                        <!--
+                                                        Bar above the days of the week at the top of the table.
+                                                        Not 100% sure what date-date is. Best guess is a possible identifier.
+                                                        -->
                                                         <tr>
                                                             <th class="top-day-header" data-date="2018-05-06T00:00:00" colspan="100">
                                                                 <div class="ec-cell-content"><span class="ec-cell-text" style="position: relative; visibility: hidden;"></span></div>
@@ -294,17 +296,17 @@
                                                                 <div class="ec-cell-content"><span class="ec-cell-text" style="position: relative;">Sat 5/12</span></div>
                                                             </th>
                                                         </tr>
+
+                                                        <!-- Blocks at the top of the table that contain the days of the week -->
                                                         <tr>
                                                             <th class="day-header" data-date="2018-05-06T00:00:00">
                                                                 <div class="day-text">
                                                                     Sunday
-
                                                             <th class="day-header" data-date="2018-05-06T01:00:00">
                                                                     Monday
                                                             </th>
                                                             <th class="day-header" data-date="2018-05-06T02:00:00">
                                                                    Tuesday
-
                                                             </th>
                                                             <th class="day-header" data-date="2018-05-06T03:00:00">
                                                                  Wednesday
@@ -365,12 +367,13 @@
                                                         </tr>
                                                     </tbody>
                                                 </table>
+
                                             </div>
                                             <div class="ec-bg" style="right: 17px;"></div>
                                         </div>
                                     </div>
                                     <span class="ec-cell-text ec-following" style="position: absolute; z-index: 1000; font-weight: 700; font-size: 14px; font-family: &quot;Lucida Grande&quot;, Helvetica, Arial, Verdana, sans-serif; text-decoration: none solid rgb(0, 0, 0); color: rgb(0, 0, 0); padding: 0px 4px; top: 3px; left: 284px;">
-                      </span>
+</span>
                                 </div>
                             </td>
                         </tr>
@@ -382,10 +385,9 @@
                                     <div class="ec-scroller" style="overflow-x: auto; overflow-y: scroll;; height: 617.8px; margin: 0px -17px 0px 0px;">
                                         <div class="ec-scroller-canvas ec-gutter-bottom" style="min-width: 100px; padding-bottom: 17px; background-color: #364256;">
                                             <div class="ec-content">
-
-
-
                                                 <div class="ec-rows">
+
+                                                    <!-- Column on the left with Employee names and tasks -->
                                                     <table class="">
                                                         <colgroup>
                                                             <col class="ec-main-col">
@@ -394,11 +396,7 @@
                                                             <tr>
                                                                 <td class="ec-divider" colspan="1">
                                                                     <div id="height">
-
-
                                                                     <div class="projectsCols">
-
-
                                                                         <div class="ec-cell-content">
                                                                           <span class="ec-expander">
                                                                             <span class="ec-icon ec-icon-down-triangle">
@@ -406,7 +404,6 @@
                                                                           </span>
                                                                           <span class="employee1-name-text">Josh J</span>
                                                                         </div>
-
                                                                 </td>
                                                             </tr>
                                                             <tr data-resource-id="a" class="">
@@ -526,6 +523,7 @@
                                                             </tr>
                                                         </tbody>
                                                     </table>
+
                                                 </div>
                                             </div>
                                             <div class="ec-bg" style="bottom: 17px;"></div>
@@ -540,6 +538,8 @@
                                         <div class="ec-scroller-canvas" style="width: 7728px; min-width: 0px;">
                                             <div class="ec-content">
                                                 <div class="ec-rows">
+
+                                                    <!-- Horizontal lines on the main calendar section -->
                                                     <table class="">
                                                         <tbody>
                                                             <tr>
@@ -742,12 +742,14 @@
                                                             </tr>
                                                         </tbody>
                                                     </table>
+
                                                 </div>
                                             </div>
                                             <div class="ec-bg">
                                                 <div class="ec-slats">
-                                                    <table class="">
 
+                                                    <!-- Vertical lines of the main body of the calendar -->
+                                                    <table class="">
                                                         <tbody>
                                                             <tr>
                                                                 <td class="ec-widget-content ec-major" data-date="2018-05-06T00:00:00">
@@ -1007,20 +1009,16 @@
     </div>
 
     <script>
-// Get the modal
-var modal = document.getElementById('addTask');
+    // Get the modal
+    var modal = document.getElementById('addTask');
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-if (event.target == modal) {
-modal.style.display = "none";
-}
-}
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+    }
 </script>
-
-
-
-
 
 </body>
 
