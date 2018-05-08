@@ -92,7 +92,9 @@
 --------------------------------------------------------------------------------------------------*/
 /* undo the min-height 100% trick used to fill the container's height */
 .ec-time-grid {
-  min-height: 0 !important; }
+  min-height: 0 !important;
+background-color: #364256; }
+
 
 /* don't display the side axis at all ("all-day" and time cells) */
 .ec-agenda-view .ec-axis {
