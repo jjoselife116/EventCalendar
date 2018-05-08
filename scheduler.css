@@ -365,8 +365,15 @@ tr.ec-collapsed>td>div {
 
 
 .ec-widget-header{
-  color: white;
+  color: black;
 }
+
+.day-text, .day-header, .top-day-header{
+    background-color: #364256;
+    color: white;
+}
+
+
 .ec-divider{
   background-color: #364256;
 }
