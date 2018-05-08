@@ -5,30 +5,59 @@
  */.ec-resource-area .ec-cell-content, .ec-timeline {
     padding-left: 4px;
     padding-right: 4px;
+    color: :white;
+
 }
 .ec-cell-text{
   padding-left: 5px;
   padding-right: 25px;
+  color: white;
+
 }
+
+//******employee text colors***********
+
+Needs to be dynamic
+mybe use a javascript array to cycle throught the colors of the rainbow.
+
+*/
+.employee1-name-text{
+  color: black;
+}
+.employee2-name-text{
+  color: #ff02b3;
+}
+.employee3-name-text{
+  color: green;
+}
+
+
+
 .ec-resource-area th>div, .ec-scroller-canvas, .ec-scroller-canvas>.ec-content, .ec-scroller-clip {
     position: relative;
+
 }
 .ec-scroller-clip, .ec-timeline .ec-cell-content, tr.ec-collapsed>td, tr.ec-transitioning>td {
     overflow: hidden;
+
 }
 .ec-no-scrollbars {
     background: rgba(255, 255, 255, 0);
 }
 .ec-timeline .ec-body .ec-divider.ui-widget-header, .ec-timeline .ec-body .ui-widget-content {
     background-image: none;
+
 }
 .ec-no-scrollbars::-webkit-scrollbar {
     width: 0;
     height: 0;
+
 }
 .ec-scroller-canvas {
     box-sizing: border-box;
-    min-height: 100%}
+    min-height: 100%
+
+  }
 .ec-scroller-canvas>.ec-bg {
     z-index: 1;
 }
@@ -149,6 +178,7 @@ tr.ec-collapsed>td>div {
 .ec-no-overlap .ec-body .ec-resource-area .ec-cell-content {
     padding-top: 10px;
     padding-bottom: 10px;
+    color: white;
 }
 .ec-resource-area .ec-icon {
     width: 1em;
@@ -333,8 +363,17 @@ tr.ec-collapsed>td>div {
     border-top-right-radius: 3px;
 }
 
+
+.ec-widget-header{
+  color: white;
+}
+.ec-divider{
+  background-color: #364256;
+}
+
 #height{
     height: 42.8px;
+
 }
 #width{
   width: 96px;
