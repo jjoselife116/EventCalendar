@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+
+<body>
+  <h2 align="center">Scheduling Calendar</h2>
+
+  <!-- Scrollable y-axis line of days above the scheduler -->
+  <div id="table-wrapper-days">
+    <div id="table-scroll-days">
+      <table>
+        <tr>
+          <td>Monday 5/7</td>
+          <td>Tuesday 5/8</td>
+          <td>Wednesday 5/9</td>
+          <td>Thursday 5/10</td>
+          <td>Friday 5/11</td>
+          <td>Saturday 5/12</td>
+          <td>Sunday 5/13</td>
+          <td>Monday 5/14</td>
+          <td>Tuesday 5/15</td>
+          <td>Wednesday 5/16</td>
+          <td>Thursday 5/17</td>
+          <td>Friday 5/18</td>
+          <td>Saturday 5/19</td>
+          <td>Sunday 5/20</td>
+          <td>Monday 5/21</td>
+          <td>Tuesday 5/22</td>
+          <td>Wednesday 5/23</td>
+          <td>Thursday 5/24</td>
+          <td>Friday 5/25</td>
+          <td>Saturday 5/26</td>
+          <td>Sunday 5/27</td>
+          <td>Monday 5/28</td>
+          <td>Tuesday 5/29</td>
+          <td>Wednesday 5/30</td>
+          <td>Thursday 5/31</td>
+          <td>Friday 6/1</td>
+          <td>Saturday 6/2</td>
+          <td>Sunday 6/3</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- Scrollable x-axis column of employees to the left of the scheduler -->
+  <div id="table-wrapper-employees">
+    <div id="table-scroll-employees">
+      <table class="tableEmployees">
+        <tr><td>Employee A</td></tr>
+        <tr><td>Employee B</td></tr>
+        <tr><td>Employee C</td></tr>
+        <tr><td>Employee D</td></tr>
+        <tr><td>Employee E</td></tr>
+        <tr><td>Employee F</td></tr>
+        <tr><td>Employee G</td></tr>
+        <tr><td>Employee H</td></tr>
+        <tr><td>Employee I</td></tr>
+        <tr><td>Employee J</td></tr>
+        <tr><td>Employee K</td></tr>
+        <tr><td>Employee L</td></tr>
+        <tr><td>Employee M</td></tr>
+        <tr><td>Employee N</td></tr>
+        <tr><td>Employee O</td></tr>
+        <tr><td>Employee P</td></tr>
+        <tr><td>Employee Q</td></tr>
+        <tr><td>Employee R</td></tr>
+        <tr><td>Employee S</td></tr>
+        <tr><td>Employee T</td></tr>
+        <tr><td>Employee U</td></tr>
+        <tr><td>Employee V</td></tr>
+        <tr><td>Employee W</td></tr>
+        <tr><td>Employee X</td></tr>
+        <tr><td>Employee Y</td></tr>
+        <tr><td>Employee Z</td></tr>
+    </table>
+  </div>
+</div>
+
+  <!-- Main body table to house the task graphics -->
+  <div id="table-wrapper-scheduler">
+    <div id="table-scroll-schedular">
+      <table class="tableTasks">
+      </table>
+    </div>
+  </div>
+
+</body>
+
+</html>
+
+
+
+
+<!-- Some other ideas -->
+<!--
+
+/*** CSS ***\
+div {
+  width: 500px;
+  overflow-x: scroll;
+  margin-left: 5em;
+  overflow-y: visible;
+  padding: 0;
+}
+
+.headcol {
+  position: absolute;
+  width: 5em;
+  left: 0;
+  top: auto;
+  border-top-width: 1px;
+  margin-top:-1px;
+  empty-cells: show;
+}
+
+/*** HTML ***\
+<div>
+  <table>
+      <tr><th class="headcol">1</th><td class="long">QWERTYUIOPASDFGHJKLZXCVBNM</td><td class="long">QWERTYUIOPASDFGHJKLZXCVBNM</td></tr>
+      <tr><th class="headcol">2</th><td class="long">QWERTYUIOPASDFGHJKLZXCVBNM</td><td class="long">QWERTYUIOPASDFGHJKLZXCVBNM</td></tr>
+      <tr><th class="headcol">3</th><td class="long">QWERTYUIOPASDFGHJKLZXCVBNM</td><td class="long">QWERTYUIOPASDFGHJKLZXCVBNM</td></tr>
+      <tr><th class="headcol">4</th><td class="long">QWERTYUIOPASDFGHJKLZXCVBNM</td><td class="long">QWERTYUIOPASDFGHJKLZXCVBNM</td></tr>
+      <tr><th class="headcol">5</th><td class="long">QWERTYUIOPASDFGHJKLZXCVBNM</td><td class="long">QWERTYUIOPASDFGHJKLZXCVBNM</td></tr>
+      <tr><th class="headcol">6</th><td class="long">QWERTYUIOPASDFGHJKLZXCVBNM</td><td class="long">QWERTYUIOPASDFGHJKLZXCVBNM</td></tr>
+  </table>
+</div>
+
+-->
